@@ -1,0 +1,36 @@
+#searchbutton {
+    color:darkcyan;
+    background-color: whitesmoke;
+    border-radius : 20px;
+    border-color: darkcyan;
+    border-width: 1px;
+    border-style:solid;
+    padding:5px 60px;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 50px;
+}
+
+#plusbutton {
+    background-color: turquoise;
+    color: white;
+    border-radius: 50%;
+    margin: 20px 50px;
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    border-color: transparent;
+}
+
+#createaccbutton {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: royalblue;
+    box-shadow:3px 3px black;
+    color: white;
+    margin: 20px 50px;
+    padding: 10px 50px;
+    font-size: large;
+}
