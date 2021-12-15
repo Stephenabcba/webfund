@@ -1,0 +1,30 @@
+* {
+    margin:0;
+}
+
+.col, .col-2, .col-3 {
+    background-color: cadetblue;
+    color: white;
+    flex:1;
+    padding:20px;
+    margin-right: 10px;
+}
+
+.col-2 {
+    flex:2;
+}
+
+.row :last-child { /* remove the margin on the right edge.*/
+    margin-right: 0;
+}
+
+.col-3 {
+    flex:3;
+}
+
+.row {
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0px;
+}
