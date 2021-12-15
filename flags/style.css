@@ -1,0 +1,78 @@
+#italy {
+    width:330px;
+    height:225px;
+    padding: 0px;
+}
+
+#green{
+    background-color:green;
+    width:100px;
+    height:225px;
+    display: inline-block;
+    margin: 0px;
+}
+
+#white {
+    background-color:white;
+    width:100px;
+    height:225px;
+    display: inline-block;
+    margin: 0px;
+}
+
+#red {
+    background-color:red;
+    width:100px;
+    height:225px;
+    display: inline-block;
+    margin: 0px;
+}
+
+#usa {
+    width: 700px;
+    height: 400px;
+}
+
+#usatop {
+    display: flex;
+}
+
+#stars {
+    background-color: #002868;
+    flex:2;
+    padding: 10px;
+}
+
+#topstripes {
+    flex:3;
+}
+
+.star {
+    font-size:150%;
+    color:white;
+    margin: -6px 0px;
+}
+
+.stripe {
+    height:30px;
+}
+
+.usared {
+    background-color: #BF0A30;
+}
+
+.usawhite {
+    background-color: white;
+}
+
+.starrow {
+    display: flex;
+}
+
+.fivestars {
+    justify-content: space-evenly;
+}
+
+.sixstars {
+    justify-content: space-between;
+}
