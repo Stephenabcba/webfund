@@ -1,0 +1,57 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+h1, h2, p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #17a2b8;
+}
+
+h2 {
+    display: inline-block;
+    font-weight: normal;
+}
+
+#container {
+    width: 800px;
+    padding: 50px 150px;
+}
+
+#card-bottom {
+    border:solid lightgray 3px;
+    border-top: transparent;
+    padding:50px 0px 10px 20px;
+}
+
+#profile-picture {
+    position:relative;
+    top:50px;
+    left:25px;
+    width: 90px;
+}
+
+#map-marker {
+    width:10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#gear {
+    width:12px;
+}
+
+#edit-profile {
+    margin: 10px 0px;
+}
+
+.location {
+    margin: 7px 0;
+}
+.bg-17a2b8 {
+    background-color: #17a2b8;
+}
+
