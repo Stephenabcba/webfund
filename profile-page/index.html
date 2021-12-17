@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div class="nav-left">
+                <h1 id="site-name">Profile</h1>
+                <ul id="nav-links">
+                    <li><a href="home-html">Home</a></li>
+                    <li><a href="profile-html" class="active-page">My Profile</a></li>
+                    <li><a href="connections-html">Find Connections</a></li>
+                </ul>
+            </div>
+            <input type="button" value="Sign Out" id="signout-button" class="bg-17a2b8">
+        </div>
+        <div id="content">
+            <div class="left-col">
+                <div class="profile-card">
+                    <div class="bg-17a2b8">
+                        <img src="images/jane-m.jpg" alt="profile picture" id="profile-picture">
+                    </div>
+                    <div class="left-card-content" id="profile-content">
+                        <h2 id="profile-name">Jane Doe</h2>
+                        <div id="location">
+                            <img src="icons/map-marker.png" alt="map marker icon" id="map-marker-icon">
+                            <h3>Seattle</h3>
+                        </div>
+                        <div id="self-description">
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet!</p>
+                        </div>
+                        <div id="edit-profile">
+                            <img src="icons/gear.png" alt="edit profile icon" id="edit-gear-icon">
+                            <a href="edit-profile-html">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card-header bg-333333">
+                        <h2 class="white-text">Education</h2>
+                    </div>
+                    <div class="left-card-content">
+                        <h2 class="education-name">Coding Dojo - Full Stack Bootcamp</h2>
+                        <h3 class="education-date">Dec 2019 - Mar 2020</h3>
+                        <p>Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="connection-request">
+                    <div class="card-header bg-333333">
+                        <span class="connect-count">2</span>
+                        <h2 class="white-text">Connection Requests</h2>
+                    </div>
+                    <div class="right-card-content">
+                        <ul class=connect-list>
+                            <li class="connection">
+                                <div class="connect-pict-name">
+                                    <img src="images/todd-s.jpg" alt="todd profile picture" class="connect-picture">
+                                    <p class="connection-name">Todd E</p>
+                                </div>
+                                <div class="accept-deny">
+                                    <img src="icons/accept-circle.png" alt="" class="accept-deny-icon">
+                                    <img src="icons/close-circle.png" alt="" class="accept-deny-icon">
+                                </div>
+                            </li>
+                            <li class="connection">
+                                <div class="connect-pict-name">
+                                    <img src="images/phil-s.jpg" alt="phil profile picture" class="connect-picture">
+                                    <p class="connection-name">Phil K</p>
+                                </div>
+                                <div class="accept-deny">
+                                    <img src="icons/accept-circle.png" alt="" class="accept-deny-icon">
+                                    <img src="icons/close-circle.png" alt="" class="accept-deny-icon">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="card-header bg-333333">
+                        <span class="connect-count">500+</span>
+                        <h2 class="white-text">Your Connections</h2>
+                    </div>
+                    <div class="right-card-content">
+                        <ul class="connect-list">
+                            <li class="connection">
+                                <div class="connect-pict-name">
+                                    <img src="images/adrien-s.jpg" alt="adrien profile picture" class="connect-picture">
+                                    <p class="connection-name">Adrien D</p>
+                                </div>
+                            </li>
+                            <li class="connection">
+                                <div class="connect-pict-name">
+                                    <img src="images/anne-s.jpg" alt="anne profile picture" class="connect-picture">
+                                    <p class="connection-name">Anne J</p>
+                                </div>
+                            </li>
+                            <li class="connection">
+                                <div class="connect-pict-name">
+                                    <img src="images/alayne-s.jpg" alt="alayne profile picture" class="connect-picture">
+                                    <p class="connection-name">Alayne T</p>
+                                </div>
+                            </li>
+                            <li class="connection">
+                                <div class="connect-pict-name">
+                                    <img src="images/arry-s.jpg" alt="arry profile picture" class="connect-picture">
+                                    <p class="connection-name">Arry Y</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-card-content">
+                        <a href="view-more-html">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
