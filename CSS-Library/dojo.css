@@ -1,0 +1,91 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Plus sign button from Button Up */
+.btn {
+    background-color: turquoise;
+    color: white;
+    border-radius: 50%;
+    margin: 20px 50px;
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    border-color: transparent;
+}
+
+
+/* Row and Column classes from FLEX-ible columns */
+.col {
+    background-color: cadetblue;
+    color: white;
+    flex:1;
+    padding:20px;
+}
+
+.row {
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0px;
+    gap:10px;
+}
+
+
+/* Navbar related classes */
+.nav {
+    display: flex;
+    background-color: dimgray;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.nav-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    color: white;
+    margin: 5px 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: white;
+    margin: 5px 0px;
+    align-items: center;
+}
+
+.nav-links > li {
+    margin: 0px 15px;
+}
+
+.nav-links > li > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-btn {
+    color: white;
+    background-color: #17a2b8;
+    box-shadow: 2px 2px black;
+    border: 2px black solid;
+    padding: 4px 10px;
+}
+
+.active {
+    font-weight: bold;
+}
