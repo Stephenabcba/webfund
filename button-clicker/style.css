@@ -1,0 +1,107 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width:700px;
+    min-height: 200px;
+    padding: 0px 30px;
+}
+
+h1,h2,p,a, input {
+    font-family: cursive;
+    
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* NAVBAR */
+
+#navbar {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+#navbar > button {
+    background-color: #2b78e4;
+    color: white;
+    border: black 2px solid;
+    padding: 3px 10px;
+    box-shadow: 2px 2px black;
+}
+
+#navbar > input {
+    padding: 2px 5px;
+    width: 350px;
+}
+
+
+/* main content */
+#body {
+    display: flex;
+    gap: 20px;
+}
+
+.left-col {
+    flex:2;
+}
+
+.right-col {
+    flex:1;
+}
+
+.word-card{
+    padding: 15px;
+    border: 1px black solid;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.word-card > div {
+    flex: 2;
+    text-align: center;
+}
+
+.word-card > p {
+    flex: 5;
+}
+
+.like-button {
+    background-color: #ffd966;
+    border: black 2px solid;
+    box-shadow: 2px 2px black;
+    padding: 5px 25px;
+    margin-top: 20px;
+}
+
+.right-col > div
+{
+    padding: 12px 10px;
+    border: 1px black solid;
+    margin: 20px 0px;
+    height: 120px;
+}
+
+
+#definition {
+    margin-top: 20px;
+    border: black 2px solid;
+    box-shadow: 2px 2px black;
+    padding: 5px 25px;
+    background-color: #93c47d;
+    width: 100%;
+}
+
