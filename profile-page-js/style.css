@@ -1,0 +1,214 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p, a {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+}
+
+a, #edit-profile {
+    color: #085394;
+}
+
+#container {
+    width: 1300px;
+}
+
+/* NAVBAR */
+#navbar {
+    padding: 5px 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+#site-name {
+    color: white;
+    margin-right:10px;
+}
+
+#nav-links {
+    display: flex;
+    list-style: none;
+}
+
+#nav-links > li > a {
+    /*display: inline-block;*/
+    color:white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.active-page {
+    font-weight: bold;
+}
+
+#signout-button {
+    color: white;
+    border:none;
+    padding: 5px 10px;
+}
+
+/* START OF BODY STYLING */
+#content {
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-col {
+    flex:2;
+}
+
+
+.right-col {
+    flex:1;
+}
+
+/* PROFILE CARD */
+.profile-card {
+    margin-bottom: 20px;
+}
+
+#profile-picture {
+    width: 80px;
+    border: lightgray 4px solid;
+    position: relative;
+    top: 45px;
+    left: 30px;
+}
+
+#profile-content {
+    padding-top: 45px;
+}
+
+#profile-name {
+    margin-bottom: 15px;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#map-marker-icon {
+    width: 15px;
+    margin-right: 15px;
+}
+
+#self-description {
+    margin-bottom: 15px;
+}
+
+#edit-profile {
+    display:flex;
+    align-items: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#edit-gear-icon {
+    width:20px;
+    margin-right:10px;
+}
+
+/* EDUCATION CARD */
+.education-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.education-date {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+/* GENERIC CARD FORMATTING*/
+.card-header {
+    padding:15px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-card-content {
+    border: lightgray 4px solid;
+    border-top: none;
+    padding: 20px 30px;   
+}
+
+.right-card-content {
+    border: lightgray 4px solid;
+    border-top: none;
+    padding: 20px 15px;   
+}
+
+/* CONNECTION RELATED FORMATTING*/
+.connection-request {
+    margin-bottom: 20px;
+}
+
+.connect-list {
+    list-style: none;
+}
+
+.connection {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: space-between;
+
+}
+
+.connect-count {
+    background-color: lightgray;
+    border-radius: 45%;
+    padding: 3px 8px;
+}
+
+.connect-pict-name {
+    display: flex;
+    align-items: center;
+}
+
+.connect-picture {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.connection-name {
+    margin-right: 10px;
+}
+
+.accept-deny-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+/* COLORS */
+.bg-17a2b8 {
+    background-color: #17a2b8;
+}
+
+.bg-333333 {
+    background-color: #333333;
+}
+
+.white-text {
+    color: white;
+}
