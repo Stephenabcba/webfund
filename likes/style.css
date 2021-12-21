@@ -1,0 +1,95 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* PAGE CONTAINER */
+#container {
+    width: 600px;
+    padding: 0px 100px;
+}
+
+/* NAVBAR */
+#navbar {
+    background-color: black;
+    padding: 7px 25px;
+    margin-bottom: 10px;
+}
+
+#navbar > h1 {
+    color: white;
+}
+
+/* MAIN CONTENT */
+
+#container > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#content {
+    display: flex;
+    gap: 20px;
+}
+
+/* LEFT SIDE */
+.left-col {
+    flex: 1;
+}
+
+.left-col > div {
+    border: black solid 3px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-col > div > img {
+    width: 60px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 50%;
+}
+
+.left-col > div > a, .left-col > div > h2 {
+    margin-bottom: 25px;
+}
+
+/* RIGHT SIDE */
+.right-col {
+    flex: 3;
+}
+
+.post {
+    border: black solid 3px;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+    height: 90px;
+}
+
+.post > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.post > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.post > p {
+    padding-right: 20px;
+}
+
+button {
+    background-color: #ffd966;
+    padding: 5px 10px;
+    box-shadow: 3px 3px black;
+    font-weight: bold;
+}
