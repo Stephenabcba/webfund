@@ -1,0 +1,48 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    padding: 10px;
+}
+
+/* GENERAL ROW/COLUMN FORMATTING */
+.row {
+    padding: 10px;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+/* "RESPONSIVE" SCREEN SIZE FORMATTING */
+@media only screen and (max-width: 480px) {
+    .small-4 {
+        width: 100%;
+    }
+    .small-0 {
+        display:none;
+    }
+}
+@media only screen and (min-width: 481px) {
+    .med-2 {
+        width: 45%;
+    }
+}
+@media only screen and (min-width: 1080px) {
+    .lg-1 {
+        width: 25%;
+    }
+    .lg-3 {
+        width: 75%;
+    }
+}
+
+/* COLORS */
+.bg-green {
+    background-color: mediumspringgreen;
+}
